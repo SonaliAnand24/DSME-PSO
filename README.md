@@ -270,7 +270,7 @@ If you build upon this work, please cite the paper:
 MTech, AI
 
 [![Email](https://img.shields.io/badge/Email-sonalianand2406%40gmail.com-EA4335?style=flat-square&logo=gmail)](mailto:sonalianand2406@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-YOUR__USERNAME-181717?style=flat-square&logo=github)](https://github.com/YOUR_USERNAME)
+[![GitHub](https://img.shields.io/badge/GitHub-SonaliAnand24-181717?style=flat-square&logo=github)](https://github.com/SonaliAnand24)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/YOUR_PROFILE)
 
 ### Co-Authors
