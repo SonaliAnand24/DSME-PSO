@@ -93,7 +93,9 @@ Cluster-Tree Topology
 │   │   └── End Devices ...
 │   └── ...
 │
-PSO Loop (per Cluster Head):
+
+The algorithm runs at every Cluster_Head of the Network
+Algo_PSO:
   1. Initialise swarm with random (BO, MO, SO) positions
   2. Evaluate fitness P and DMSF for each particle
   3. Update pBest per particle
@@ -127,17 +129,7 @@ dsme-pso/
 │
 ├── 📂 configs/
 │   ├── default.yaml                # Default simulation parameters
-│   └── scalability.yaml            # Config for 10–80 node scalability tests
-│
-├── 📂 results/
-│   ├── figures/                    # Reproduced plots (Fig. 3a–3f from paper)
-│   └── logs/                       # Raw simulation output (JSON)
-│
-├── 📂 notebooks/
-│   ├── 01_pso_convergence.ipynb    # Visualise PSO convergence over iterations
-│   ├── 02_scalability_analysis.ipynb  # Power/latency/throughput vs network size
-│   └── 03_parameter_sensitivity.ipynb # Impact of BO, MO, SO individually
-│
+|
 ├── 📂 docs/
 │   └── DSME_PRIMER.md              # Background on DSME superframe structure
 │
@@ -151,32 +143,14 @@ dsme-pso/
 ## Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/dsme-pso-iot.git
-cd dsme-pso-iot
+git clone https://github.com/SonaliAnand24/DSME-PSO.git
+cd DSME-PSO
 pip install -r requirements.txt
 ```
 
 **Requirements:** Python 3.9+, NumPy, Matplotlib, PyYAML, tqdm
 
 ---
-
-## Running Simulations
-
-### Reproduce paper results (Fig. 3a–3f)
-
-```bash
-# Power consumption vs PSO iterations (Fig. 3a)
-python run_simulation.py --mode iterations --metric power --nodes 40
-
-# Power consumption vs network size (Fig. 3b)
-python run_simulation.py --mode scalability --metric power
-
-# Latency vs iterations (Fig. 3c)
-python run_simulation.py --mode iterations --metric latency --nodes 40
-
-# All six plots at once
-python run_simulation.py --mode full --save results/figures/
-```
 
 ### Custom configuration
 
