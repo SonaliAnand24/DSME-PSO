@@ -254,7 +254,7 @@ If you build upon this work, please cite the paper:
   title     = {Improving Network Efficiency in Clustered Tree Topology
                through {PSO} Optimization in {IEEE} 802.15.4-{DSME}
                based {IoT} Networks},
-  booktitle = {[Conference Name]},
+  booktitle = {[IEEE ANTS]},
   year      = {2024},
   note      = {Supported by DST-SERB Grant SRG/2023/002016}
 }
@@ -267,8 +267,7 @@ If you build upon this work, please cite the paper:
 ### Lead Author & Maintainer
 
 **Sonali Anand**
-MTech, Computer Science & Information Systems
-BITS Pilani, Hyderabad Campus
+MTech, AI
 
 [![Email](https://img.shields.io/badge/Email-sonalianand2406%40gmail.com-EA4335?style=flat-square&logo=gmail)](mailto:sonalianand2406@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-YOUR__USERNAME-181717?style=flat-square&logo=github)](https://github.com/YOUR_USERNAME)
