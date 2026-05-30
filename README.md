@@ -9,11 +9,11 @@
 ![Status](https://img.shields.io/badge/Status-Published-brightgreen?style=flat-square)
 ![Venue](https://img.shields.io/badge/Venue-IEEE-00629B?style=flat-square&logo=ieee&logoColor=white)
 
-**Official simulation code for the paper:**
+**Simulation code for the paper:**
 
 *"Improving Network Efficiency in Clustered Tree Topology through PSO Optimization in IEEE 802.15.4-DSME based IoT Networks"*
 
-**Sonali Anand** *(lead author & repository maintainer)*, Nikumani Choudhury, Tamoghna Ojha, Anakhi Hazarika, Jay Dave
+**Sonali Anand**, Nikumani Choudhury, Tamoghna Ojha, Anakhi Hazarika, Jay Dave
 
 BITS Pilani, Hyderabad Campus · IIT (ISM) Dhanbad
 
